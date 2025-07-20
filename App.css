@@ -1,0 +1,73 @@
+.App {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7fafc;
+  min-height: 100vh;
+  margin: 0;
+  color: #222;
+}
+
+.hero {
+  background: linear-gradient(120deg, #5ec6ca 0%, #b7e6e7 100%);
+  color: #fff;
+  padding: 60px 20px 40px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 28px;
+}
+
+.hero button {
+  background: #fff;
+  color: #2a7d7a;
+  border: none;
+  font-size: 1rem;
+  padding: 12px 28px;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.07);
+  transition: background 0.2s, color 0.2s;
+}
+
+.hero button:hover {
+  background: #d0f0f0;
+  color: #165657;
+}
+
+.services {
+  background: #fff;
+  margin: 40px auto 0 auto;
+  max-width: 550px;
+  border-radius: 20px;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.06);
+  padding: 36px 24px;
+}
+
+.services h2 {
+  text-align: center;
+  color: #2a7d7a;
+  margin-bottom: 18px;
+  font-size: 1.5rem;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.services li {
+  font-size: 1.12rem;
+  margin: 18px 0;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

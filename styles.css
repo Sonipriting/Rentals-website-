@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+.hero {
+  background-image: url('/images/gambia-home.jpg');
+  color: white;
+  padding: 60px;
+  text-align: center;
+  background-size: cover;
+}
+
+.services {
+  background-color: #fff;
+  padding: 20px;
+}
